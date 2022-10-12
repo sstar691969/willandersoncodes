@@ -1,0 +1,74 @@
+/* styles for my website */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body {
+    background:beige;
+
+    
+
+}
+
+header {
+    background:yellow;
+    
+
+}
+
+.inner-header {
+    max-width: 1200px;
+margin:0px auto;
+background: tan;
+
+
+}
+
+
+#logo {
+    width: 200px;
+}
+
+#wrapper {
+max-width: 1200px;
+margin:20px auto;
+
+}
+
+#hero {
+height:400px;
+background:red;
+margin-bottom: 20px;
+
+
+
+}
+
+main {
+width: 62%;
+height:400px;
+background: lightblue;
+float:left;
+
+
+}
+
+aside {
+width:35%;
+height: 300px;
+background: lightsalmon;
+float: right;
+
+}
+
+footer{
+height:60px ;
+background: #ddd;
+clear: both;
+
+
+}
+
