@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>William's IT162 Portal</title>
+<meta name="viewport" content="width=device-width" />
+<meta name="robots" content="noindex,nofollow" />
+<meta charset="utf-8">
+<script src="https://use.fontawesome.com/6a71565c22.js"></script>
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/portal.css" />
+<link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+<!-- START WRAPPER -->
+<main class="wrapper">
+<header>
+  <h1><a href="index.php"><i class="logo fa fa-home"></i> William's IT162 Portal</a></h1>
+  <nav>
+    <ul class="topnav" id="myTopnav">
+      <li><a href="index.php" class="selected">Welcome</a></li>
+      <li><a href="big/index.php">Big</a></li>
+      <li><a href="aia.php">AIA</a></li>
+      <li><a href="flowchart.php">Flowchart/Layout</a></li>
+      <li><a href="fp/index.php">Final Project</a></li>
+      <li><a href="contactme.php">Contact Sara</a></li>
+      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+    </ul>
+  </nav>
+</header>
+        
+<!-- START LEFT COL -->
+<section>
+ <h2 class="pageID">Welcome left side</h2>
+
+<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
+ <img src="images/desktop.jpg" class="desktop" alt="photo of a puma" />
+ <img src="images/phone.jpg" class="phone" alt="photo of a puma" />
+ <p>I enjoy traveling and watching the Seahawks. Also, my goal is to grow and become a full stack developer that specialize in Python, database and Postgres plus understanding how to code or script using Visual Studio Code with Git and Github. Additionally, learning Google Cloud and Linux has help me to be more innovated and advanced in learning and understanding web development to hopefully one day be a great developer.</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+</section>
+<!-- END LEFT COL -->
+
+<!-- START RIGHT COL -->
+<aside>
+ <h3>Right Column</h3>
+ <img src="images/tablet.jpg" class="tablet" alt="photo of a puma" />
+ <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+</aside>
+<!-- END RIGHT COL -->
+ 
+<!-- START Footer -->
+  <footer>
+      <p><small>&copy; 2018-<?=date("Y")?> by 
+          <a href="contact.php">William Anderson</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+<!-- END Footer --> 
+</main>
+<!-- END WRAPPER -->
+
+    
+
+
+
+  <script>
+	//https://tinyurl.com/dynamic-html-checker
+	document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
+
+	//manages mobile nav - from W3Schools
+	function myFunction() {
+    	    var x = document.getElementById("myTopnav");
+    	    if (x.className === "topnav") {
+        	         x.className += " responsive";
+    	    } else {
+        	         x.className = "topnav";
+    	   }
+	}   
+ </script>
+</body>
+</html>
+
+/* My it162 Portal Website Styles */
+
+html {
+    background-color:#ccc;
+}
+
+main.wrapper {
+    background-color:#fff;
+    overflow:auto;
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+.logo {
+    color:red;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+	clear:both;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   main.wrapper {
+		width:80%;
+		margin:auto;
+	}
+
+    section {
+		width:65%;
+		float:left;
+	}
+	
+     aside {	
+		width:34%;
+		float:right;
+	}
+			
+    img.desktop {
+      		float:left;
+       		width:50%;
+            display:inline-block;
+    }
+    
+    img.tablet, img.phone {
+       	display:none;
+    	}  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+   	 }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:60%;
+		float:left;
+	}
+	
+	aside {	
+		width:39%;
+		float:right;
+	}
+	
+    img.tablet {
+       		width:100%;
+            display:inline-block;
+    }
+    
+    img.desktop, img.phone {
+       	display:none;
+    	}  
+    
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+       		width:100%;
+            display:inline-block;
+    }
+    
+    img.tablet, img.desktop {
+       	display:none;
+    	}  
+
+}
+
+
+
+
+
+
+
+@charset "utf-8";
+/* CSS nav.css Document */
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+   }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width:680px) {
+ 
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* form.css start reCAPTCHA styles */
+
+form>div {
+    margin:1em;
+}
+
+/* writes to small text above reCAPTCHA upon failure */
+
+.dateFeedback{
+    font-style:italic;
+    font-size:70%;
+    font-weight:bold;
+    color:#f00;
+}
+
+input:required {
+      border: 1px solid red;
+}
+
+ input:optional, textarea:optional {
+     background-color:#f1f1f1;
+     border:1px solid #ccc;
+}
+
+input[type="submit"], input[type="button"] {
+  background-color: #fff;
+  border-radius: 4px;
+  border: solid 1px #ccc;
+  padding: 0.3em 0.5em;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  max-width: 350px;
+}
+
+legend {
+  margin-left: 0.5em;
+  padding: 0.2em 0.5em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* end reCAPTCHA styles */
+
