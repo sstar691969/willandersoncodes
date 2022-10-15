@@ -63,20 +63,26 @@ footer {
 		float:right;
 	}
 			
-    img.desktop {
-        float:left;
-        width:50%;
-        display:inline-block;
-    }
-    img.desktop {
-        display:none ;
-    }
+    
 
-    img.tablet {
-       	width:100%;
-        display:inline-block;
-    }  
+    img.desktop {
+        float: left;
+        width: 50%;
+        display: inline-block
+    } 
+
     img.phone {
+        display:none;
+    } 
+    
+    
+    mg.desktop {
+        display:none;
+    } 
+
+
+
+    img.tablet, img.phone {
         display:none;
     }
    
