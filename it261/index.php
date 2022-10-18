@@ -80,48 +80,48 @@
 <ul>
         <li>Week 2</li>
         <li><a href="weeks/week2/var.php">var.php</a></li>
-        <li><a href="../index.php">var2.php</a></li>
-        <li><a href="../index.php">currency-logic.php</a></li>
-        <li><a href="../index.php">currency.php</a></li>
-        <li><a href="../index.php">heredoc.php</a></li>
+        <li><a href="weeks/week2/var.php">var2.php</a></li>
+        <li><a href="weeks/week2/currency-logic.php">currency-logic.php</a></li>
+        <li><a href="weeks/week2/currency.php">currency.php</a></li>
+        <li><a href="weeks/week2/heredoc.php">heredoc.php</a></li>
         
 
         <li>Week 3</li>
-        <li><a href="../index.php">if.php</a></li>
-        <li><a href="../index.php">date.php</a></li>
-        <li><a href="../index.php">forloop.php</a></li>
-        <li><a href="../index.php">foreach.php</a></li>
-        <li><a href="../index.php">switch.php</a></li>
+        <li><a href="weeks/week3/if.php">if.php</a></li>
+        <li><a href="weeks/week3/date.php">date.php</a></li>
+        <li><a href="weeks/week3/forloop.php">forloop.php</a></li>
+        <li><a href="weeks/week3/foreach.php">foreach.php</a></li>
+        <li><a href="weeks/week3/switch.php">switch.php</a></li>
 
         <li>Week 4</li>
-        <li><a href="../index.php">form.get.php</a></li>
-        <li><a href="../index.php">form1.php</a></li>
-        <li><a href="../index.php">form2.php</a></li>
-        <li><a href="../index.php">form3.php</a></li>
-        <li><a href="../index.php">form-arithmetic.php</a></li>
-        <li><a href="../index.php">celcius.php</a></li>
+        <li><a href="weeks/week4/form.get.php">form.get.php</a></li>
+        <li><a href="weeks/week4/form1.php">form1.php</a></li>
+        <li><a href="weeks/week4/form2.php">form2.php</a></li>
+        <li><a href="weeks/week4/form3.php">form3.php</a></li>
+        <li><a href="weeks/week4/form-arithmetic.php">form-arithmetic.php</a></li>
+        <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
 
         <li>Week 5</li>
-        <li><a href="../index.php">currency1.php></a></li>
-        <li><a href="../index.php">currency2.php></a></li>
-        <li><a href="../index.php">currency3.php></a></li>
-        <li><a href="../index.php">currency4.php></a></li>
-        <li><a href="../index.php">currency5.php></a></li>
+        <li><a href="weeks/week5/currency1.php">currency1.php></a></li>
+        <li><a href="weeks/week5/currency2.php">currency2.php></a></li>
+        <li><a href="weeks/week5/currency3.php">currency3.php></a></li>
+        <li><a href="weeks/week5/currency4.php">currency4.php></a></li>
+        <li><a href="weeks/week5/currency5.php">currency5.php></a></li>
         
         
         <li>Week 6</li>
-        <li><a href="../index.php">var.php</a></li>
-        <li><a href="../index.php">implode.php</a></li>
-        <li><a href="../index.php">functions.php</a></li>
+        <li><a href="weeks/week6/var.php">var.php</a></li>
+        <li><a href="weeks/week5/implode.php">implode.php</a></li>
+        <li><a href="weeks/week5/functions.php">functions.php</a></li>
         
         <li>Week 7</li>
-        <li><a href="../index.php">random.php</a></li>
-        <li><a href="../index.php">pictures.php</a></li>
-        <li><a href="../index.php">strings.php</a></li>
+        <li><a href="weeks/week5/random.php">random.php</a></li>
+        <li><a href="weeks/week5/pictures.php">pictures.php</a></li>
+        <li><a href="weeks/week5/strings.php">strings.php</a></li>
         
 
         <li>Week 8</li>
-        <li><a href="../index.php">people.php</a></li>
+        <li><a href="weeks/week5/people.php">people.php</a></li>
         
 
         
